@@ -11,4 +11,4 @@ O meu desafio maior neste projeto foi a ultilização das tags no HTML, com maio
 
 Vejam como ficou... 🚀🚀
 
-[<img src="" alt>]
+[<img src="./src/image/order-summary-component.gif" alt="">]
