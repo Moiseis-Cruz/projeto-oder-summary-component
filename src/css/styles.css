@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 380px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+}
+
+.card .container-image img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card .cadastro {
+    padding: 40px;
+    text-align: center;
+}
+
+.card .cadastro .titulo-produto {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.card .cadastro .descricao-produto {
+    max-width: 300px;
+    margin-top: 25px;
+    font-weight: 500;
+    /* observar se o espaço entre as linhas ficou bom */
+    line-height: 24px;
+    color: hsl(224, 23%, 55%);
+}
+
+.card .cadastro .planos-opcoes .plano {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.card .cadastro .planos-opcoes .icon-music {
+    width: 48px;
+    height: 48px;
+    flex-grow: 0;
+}
+
+.card .plano-opcao .nome-plano {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card .plano-opcao .valor-plano {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.card .cadastro .planos-opcoes .plano-opcao {
+    flex-grow: 0;
+}
+
+.card .cadastro .planos-opcoes a {
+    font-size: 14px;
+    font-weight: 900;
+    flex-grow: 100;
+}
+
+.card .cadastro .planos-opcoes a .help {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    text-align: end;
+}
+
+.card .cadastro .planos-opcoes a .help:active {
+    opacity: 0.8;
+}
+
+.card .cadastro .btn {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.card .cadastro .btn:active {
+    opacity: 0.8;
+}
+
+.card .cadastro .btn-cancel {
+    color: hsl(245, 75%, 52%);
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.card .cadastro .btn-cancel:active {
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 415px) {
+    .card {
+        max-width: 315px;
+    }
+
+    .card .cadastro .descricao-produto {
+        margin: 0 auto;
+        width: 260px;
+    }
+}
