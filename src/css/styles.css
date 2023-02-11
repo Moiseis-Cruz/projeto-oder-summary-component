@@ -106,10 +106,10 @@ main {
     color: hsl(225, 100%, 98%);
     padding: 12px;
     margin-top: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: 800;
     font-size: 1.2rem;
-    box-shadow: 0 10px 10px 0 hsla(224, 23%, 55%, 0.462);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.206);
 }
 
 .card .cadastro .btn:active {
